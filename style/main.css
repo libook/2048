@@ -91,10 +91,10 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "Score"; }
+  content: "目前得分"; }
 
 .best-container:after {
-  content: "Best"; }
+  content: "最好成绩"; }
 
 p {
   margin-top: 0;
@@ -341,7 +341,8 @@ hr {
   }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        /*font-size: 25px; */
+      } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
@@ -350,7 +351,8 @@ hr {
   }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+        /*font-size: 25px; */
+      } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
@@ -359,7 +361,8 @@ hr {
   }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+        /*font-size: 25px; */
+      } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background: #edc53f;
@@ -368,7 +371,8 @@ hr {
   }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+        /*font-size: 15px; */
+      } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
@@ -377,7 +381,8 @@ hr {
   }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+        /*font-size: 15px; */
+      } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
@@ -385,7 +390,8 @@ hr {
   }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        /*font-size: 10px; */
+      } }
 
 @-webkit-keyframes appear {
   0% {
@@ -709,7 +715,7 @@ hr {
     transform: translate(202px, 202px); }
 
   .tile .tile-inner {
-    font-size: 35px; }
+    font-size: 13px; }
 
   .game-message p {
     font-size: 30px !important;
